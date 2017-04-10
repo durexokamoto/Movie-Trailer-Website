@@ -19,19 +19,19 @@ the_godfather = media.Movie("The Godfather",
                             "https://www.youtube.com/watch?v=vdQi6Ebjm8c")
 
 the_godfather_part_ii = media.Movie("The Godfather: Part II",
-                                    "The early life and career of Vito Corleone in 1920s "
-                                    "New York is portrayed while his son, Michael, expands "
-                                    "and tightens his grip on the family crime syndicate.",
+                                    "The early life and career of Vito Corleone in 1920s"
+                                    " New York is portrayed while his son, Michael, expands"
+                                    " and tightens his grip on the family crime syndicate.",
                                     "https://images-na.ssl-images-amazon.com/images/M/MV5B"
                                     "MjZiNzIxNTQtNDc5Zi00YWY1LThkMTctMDgzYjY4YjI1YmQyL2ltYW"
                                     "dlL2ltYWdlXkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_SY1000_CR0,0,702,1000_AL_.jpg",
                                     "https://www.youtube.com/watch?v=a8PT11hT-aM")
 
 the_dark_knight = media.Movie("The Dark Knight",
-                              "When the menace known as the Joker wreaks havoc and "
-                              "chaos on the people of Gotham, the Dark Knight must "
-                              "come to terms with one of the greatest psychological "
-                              "tests of his ability to fight injustice.",
+                              "When the menace known as the Joker wreaks havoc and"
+                              " chaos on the people of Gotham, the Dark Knight must"
+                              " come to terms with one of the greatest psychological"
+                              " tests of his ability to fight injustice.",
                               "https://images-na.ssl-images-amazon.com/images/M/M"
                               "V5BMTMxNTMwODM0NF5BMl5BanBnXkFtZTcwODAyMTk2Mw@@._V1"
                               "_SY1000_CR0,0,675,1000_AL_.jpg",
@@ -46,12 +46,14 @@ twelve_angry_men = media.Movie("12 Angry Men",
 
 pulp_fiction = media.Movie("Pulp Fiction",
                            "The lives of two mob hit men, a boxer, a gangster's"
-                           " wife, and a pair of diner bandits intertwine in fou"
-                           "r tales of violence and redemption.",
+                           " wife, and a pair of diner bandits intertwine in four"
+                           " tales of violence and redemption.",
                            "https://images-na.ssl-images-amazon.com/images/M/MV"
                            "5BMTkxMTA5OTAzMl5BMl5BanBnXkFtZTgwNjA5M"
                            "Dc3NjE@._V1_SY1000_CR0,0,673,1000_AL_.jpg",
                            "https://www.youtube.com/watch?v=hhMtO1MVFSo")
 
-movies = [the_shawshank_redemption, the_godfather, the_godfather_part_ii, the_dark_knight, twelve_angry_men, pulp_fiction]
+movies = [the_shawshank_redemption, the_godfather, the_godfather_part_ii,
+          the_dark_knight, twelve_angry_men, pulp_fiction]
+
 fresh_tomatoes.open_movies_page(movies)
